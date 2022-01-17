@@ -168,6 +168,7 @@ GEM
     mime-types-data (3.2019.1009)
     minitar (0.9)
     minitest (5.14.4)
+    mono_logger (1.1.1)
     mtrc (0.0.4)
     multi_json (1.14.1)
     mustermann (1.1.1)
@@ -195,6 +196,7 @@ GEM
     pry-remote (0.1.8)
       pry (~> 0.9)
       slop (~> 3.0)
+    psych (3.3.2)
     public_suffix (4.0.6)
     puma (5.5.1)
       nio4r (~> 2.0)
@@ -277,7 +279,7 @@ GEM
     thor (0.20.3)
     thread_safe (0.3.6)
     tilt (2.0.10)
-    timecop (0.7.4)
+    timecop (0.9.4)
     trollop (2.9.10)
     tzinfo (1.2.7)
       thread_safe (~> 0.1)
@@ -315,6 +317,7 @@ DEPENDENCIES
   json (= 2.3.0)
   machinist (~> 1.0)
   minitar
+  mono_logger
   mysql2
   nats-pure (~> 0.6.2)
   net-ssh
@@ -323,6 +326,7 @@ DEPENDENCIES
   pg
   pry-byebug
   pry-remote
+  psych (~> 3.0)
   rack-test (>= 0.6.3)
   rake (~> 13.0.3)
   rest-client
@@ -336,12 +340,12 @@ DEPENDENCIES
   sinatra-contrib (>= 2.0.2)
   sqlite3
   talentbox-delayed_job_sequel (~> 4.3)
-  timecop (~> 0.7.1)
+  timecop (~> 0.9.4)
   unix-crypt
   webmock
 
 RUBY VERSION
-   ruby 3.0.2p107
+   ruby 3.1.0p0
 
 BUNDLED WITH
    2.3.5
